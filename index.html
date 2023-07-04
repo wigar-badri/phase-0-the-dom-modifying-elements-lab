@@ -4,9 +4,16 @@
     <title>Creating and Inserting DOM Elements</title>
   </head>
   <script type="application/javascript">
+    // Create the <h1> element and assign it to the 'newHeader' variable
+    const newHeader = document.createElement('h1');
+    newHeader.textContent = 'Wigar is the champion';
+
+    // Append the 'newHeader' element to the body
+    document.body.appendChild(newHeader);
   </script>
   <body>
-    <main id="main"></main>
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
+
+
